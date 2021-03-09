@@ -1,6 +1,6 @@
 name: screen_tracker
-description: Away to track all screens.
-version: 1.0.0
+description: Away to track all screens. In Karee project, to track all screen and generate associated files for fast usage, we choose to make a tracker.
+version: 1.0.1
 homepage: https://github.com/ChamplainLeCode/karee_screen_tracker.git
 environment:
   sdk: ">=2.0.0 <3.0.0"

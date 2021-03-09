@@ -1,15 +1,17 @@
-library screen_tracker;
+///
+/// @Author Champlain Marius Bakop
+/// @email champlainmarius20@gmail.com
+/// @github ChamplainLeCode
+///
+///
 
-///
-///@Author Champlain Marius Bakop
-///@email champlainmarius20@gmail.com
-///@github ChamplainLeCode
-///
+library screen_tracker.annotation;
+
 /// Classe use to annotate screens
 class Screen {
   final String name;
   final bool isInitial;
-  const Screen(this.name, {this.isInitial: false});
+  const Screen(this.name, {this.isInitial = false});
 
   @override
   String toString() {
